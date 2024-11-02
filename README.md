@@ -6,7 +6,7 @@
 
 ### 技术栈
 Muduo、MySQL、Redis、Nginx
-项目使用nginx实现负载均衡环境，并且基于muduo网络库实现高并发的网络通信，使用redis的发布订阅功能实现集群服务器之间的信息共享，mysql存储对应的数据。
+<br>项目使用nginx实现负载均衡环境，并且基于muduo网络库实现高并发的网络通信，使用redis的发布订阅功能实现集群服务器之间的信息共享，mysql存储对应的数据。
 
 ### 环境
 <br>Ubuntu22.04.5 <br>gcc version 13.1.0 <br>c++11
