@@ -1,6 +1,9 @@
 # ChatServer:集群聊天服务器
 该集群聊天服务器可以实现个人聊天与群组聊天，并维护个人账号的信息，缓存离线消息。<br>项目使用nginx实现负载均衡环境，并且基于muduo网络库实现网络通信，使用redis的发布订阅功能实现集群服务器之间的通信，mysql存储对应的数据。
 
+### 技术栈
+Muduo、MySQL、Redis、Nginx
+
 ### 环境
 <br>Ubuntu22.04.5 <br>gcc version 13.1.0
 
